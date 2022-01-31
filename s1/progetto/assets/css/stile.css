@@ -1,0 +1,133 @@
+html {
+    font-size: 100%;
+    text-align: center;
+    line-height: 1.65;
+
+}
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+section {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+aside {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    color: rgb(57, 142, 199);
+    font-size: 3.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    line-height: 3;
+}
+
+p {
+    font-size: 1.2em;
+    font-family:  'Open Sans' , sans-serif;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+button {
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    font-variant: bold;
+    background-color: #f04c2f;
+    border-color: #f04c2f;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10%;
+}
+
+
+main section:first-of-type {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+    
+}
+
+section {
+    margin-bottom: 20px;
+}
+.titoli {
+    color: rgb(57, 142, 199) ;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parag {
+    font-size: 1.4em;
+}
+
+.computer {
+    border-radius: 100%;
+}
+
+
+blockquote {
+    color: white;
+    background-color: orangered;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px
+    
+}
+
+.riquadri {
+    border: 1px solid #dee1e3;
+     margin-top: 30px;
+     margin-bottom: 70px;
+}
+
+
+footer{
+    color: white;
+    background-color: #25a2c3;
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+hr {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
