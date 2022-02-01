@@ -205,7 +205,7 @@ footer a {
 
 }
 
-.tornasu {
+.fa-caret-square-up {
     color: violet;
     display: inline-block;
     font-size: 50px;
@@ -215,7 +215,7 @@ footer a {
     z-index: 3;
 }
 
-.social { 
+.fa-plus-square { 
     color: rgb(38, 105, 228);
 display: inline-block;
 font-size: 50px;
@@ -225,10 +225,11 @@ right: -15px;
 z-index: 3;
 }
 
-.calendario {
+.fa-calendar-alt {
     color: rgb(38, 105, 228);
  display: inline-block;
 font-size: 50px;
+font-weight: lighter;
 position: fixed;
 top: 50vh;
 right: -15px;
