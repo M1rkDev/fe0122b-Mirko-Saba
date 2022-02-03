@@ -306,36 +306,24 @@ footer a {
 
 
 @media screen and (min-width:1200px) {
-    header,main,footer {
+    header, main, footer {
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
+   main {
+       display: grid;
+       grid-template-columns: 60% auto;
+   }
 
-    div.header {grid-area: h;}
-    div.main {grid-area: m;}
-    div.nav {grid-area: nav;}
-    div.footer {grid-area: footer ;}
-    div.container {
-        display: grid;
-        grid-template-areas: 'h h h' 'm m nav' 'footer footer footer';
-       
-    }
-    section {position: sticky;
-    top: 30px;}
-
-    div.nav {
-        background-color: white;
-        margin-bottom: 34px;
-        padding: 30px;
-        margin-left: -1px;
-    }
-    main {
-      box-shadow: none;
-        margin-right:0;
-    }
-
+   aside {
+       display: grid;
+    
+   }
+  
+  
 }
+
 
 @media print {
     body {
