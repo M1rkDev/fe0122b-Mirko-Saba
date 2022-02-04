@@ -1,0 +1,305 @@
+/* ##MENU## */
+header nav ul {
+    position: absolute;
+    top: -10px;
+    right: -100%;
+    transition: right 1s ease-out;
+    width: 70vw;
+    height: 10vh;
+    z-index: 1;
+    list-style-type: none;
+    padding: 20px;
+    line-height: 2.3;
+    margin-top: 10px;
+}
+.btnMenu
+{
+    display: none;
+}
+
+.btnMenu:checked ~ nav ul {
+    right: 0;
+}
+
+.icoMenu {
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
+    z-index: 2;
+}
+
+
+.fa-ellipsis-h {
+    color: red;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 100%;
+    
+}
+
+body {
+    color: #000;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/* HEADER */
+header {
+    box-shadow: 1px 6px 5px -3px #d3d3d3;
+    padding: 10px;
+    background-color: white;
+}
+
+.pulsante {
+    background: rgb(108,193,226);
+background: linear-gradient(40deg, rgba(108,193,226,1) 27%, rgba(57,47,122,1) 91%);
+padding: 10px;
+color: white;
+
+}
+
+/*titoli*/
+
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    line-height: 1.3;
+}
+
+h2 {
+    font-size: 3.5rem;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+p {
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+
+/*ICONE*/
+
+.far  {
+    color: red;
+    font-size: 30px;
+}
+.fab {
+    color: red;
+    size: 30px;
+}
+.fas {
+    color: red;
+    size: 30px;
+}
+
+/* MAIN */
+
+section:first-of-type {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+    
+}
+
+section:nth-child(2) {
+    text-align: center;
+    padding: 25px;
+
+}
+
+.sezione2 {
+    text-align: center;
+    padding: 25px;
+}
+
+.sezione3 {
+    text-align: center;
+    background-color: rgba(12, 1, 44, 0.959);
+    color: white;
+    padding: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.sezione4 {
+    padding: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sezione5 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sezione6 {
+    text-align: center;
+    
+}
+
+.sezione7 {
+    text-align: center;
+    
+}
+
+.immagini {
+    width: 90%;
+}
+
+.who {
+    padding: 30px;
+
+}
+/** tabella **/ 
+thead, tfoot
+{background-color: rgb(185, 200, 206);}
+
+th {
+    font-weight: bold;
+}
+caption {
+    font-size: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(238, 238, 238);
+    padding: 40px;
+}
+
+#email {
+    width: 26.5%;
+    height: 50px;
+    padding-right: 29%;
+    padding-left: 29%
+    
+}
+
+
+
+.cont {
+    text-align: center;
+}
+#fname
+{
+    width: 90%;
+    height: 25px;
+    padding: 7px;
+}
+
+#lmail {
+    width: 90%;
+    height: 25px;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#scrivi {
+    width: 90%;
+    padding: 7px;
+}
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px)
+
+{ 
+    .logo {
+        width: 18%;
+        height: 50px;
+    }
+    
+    header{
+     display: flex;
+     padding: 20px;
+     justify-content: space-between;
+     }
+     header nav{
+         margin-top: 20px;
+     }
+     
+     header nav ul{
+             position: static;
+             display: inline;
+     
+     
+         }
+         nav ul li{
+             font-size: 1rem;
+         }
+         .btnMenu, .iconmenu, .fa-ellipsis-h:before{
+             display: none;
+         }
+
+         section:first-of-type {
+        padding: 150px;
+           
+    }
+
+    .sezione2 { display: flex;}
+    .sezione4 { display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    footer ~ div {
+        width: 33%;
+        margin-left: 20px;
+    
+    }
+ 
+    .finale {display: flex ;
+    }
+
+    .cont {
+        display: flex;
+    }
+
+    
+
+    .cont ~ div {
+        text-align: center center;
+    }
+    .cont p {
+        text-align: center center;
+    }
+    
+    .who {
+        display: flex;
+        
+    }
+ }
+ 
+/*animazione*/
+
+
+
