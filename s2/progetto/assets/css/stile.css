@@ -1,16 +1,16 @@
 /* ##MENU## */
 header nav ul {
     position: absolute;
-    top: -10px;
-    right: -100%;
+    top: -100%;
+    
     transition: right 1s ease-out;
-    width: 70vw;
-    height: 10vh;
+    width: 80vw;
     z-index: 1;
     list-style-type: none;
     padding: 20px;
     line-height: 2.3;
     margin-top: 10px;
+    background-color: white;
 }
 .btnMenu
 {
@@ -18,7 +18,7 @@ header nav ul {
 }
 
 .btnMenu:checked ~ nav ul {
-    right: 0;
+    top: 0;
 }
 
 .icoMenu {
@@ -152,6 +152,10 @@ section:nth-child(2) {
     padding: 20px;
     text-align: center;
     padding-top: 50px;
+}
+
+.lossgo {
+    width: 100%;
 }
 
 .sezione5 {
