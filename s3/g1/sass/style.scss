@@ -1,0 +1,36 @@
+@import 'variabili';
+@import 'bottoni';
+
+body {
+    background-image: url(../img/sfondo.png);
+
+    
+}
+
+h1 {
+    color: $colore-primario;
+    background-color: $colore-sfondo-titolo;
+    font-size: $grandezzafontuno;
+    text-align: $centrato;
+   
+}
+
+p {
+    font-family: $fontuno;
+    color: $coloreblue;
+    font-size: $grandezzafontuno - 15px;
+    margin: $grandezzafontuno;
+
+}
+
+a { font-family: $fontuno;
+    color: $coloreparag;
+    font-size: $grandezzafontuno - 15px;
+    
+}
+
+img {
+    width: $larghezza;
+    margin-top: $grandezzafontuno;
+    padding: $grandezzafontuno - 15px;
+}

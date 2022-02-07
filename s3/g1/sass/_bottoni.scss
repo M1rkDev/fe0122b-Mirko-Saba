@@ -1,0 +1,25 @@
+a.btn-primary {
+    background-color: $coloreparag;
+    margin: $grandezzafontuno;
+    color: $colore-primario;
+    text-decoration: $nosott;
+    border-radius: $arrotondamento;
+    padding-left: $grandezzafontuno - 20px;
+    padding-right: $grandezzafontuno - 20px;
+
+}
+
+
+a.btn-secondary {
+    background-color: $coloreblue;
+    margin: $grandezzafontuno;
+    color: $colore-primario;
+    text-decoration: $nosott;
+    border-radius: $arrotondamento;
+    padding-left: $grandezzafontuno - 20px;
+    padding-right: $grandezzafontuno - 20px;
+}
+
+a.btn-primary:hover, a.btn-secondary:hover {
+    font-size: $grandezzafontuno;
+}

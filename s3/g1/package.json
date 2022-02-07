@@ -1,0 +1,14 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "esercizios3g1",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "mirko",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
