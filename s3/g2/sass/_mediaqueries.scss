@@ -1,0 +1,35 @@
+@media screen and (min-width:768px) 
+{  #main-menu ul a {
+    padding: 22px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#main p {
+    font-size: $grandezza-media;
+    line-height: 35px;
+}
+
+#main h1 {
+    font-size: $grandezza-media + 40px ;
+}
+
+#main h2 {
+    font-size: $grandezza-media + 15px;
+}
+
+#main #sidebar ul {
+    line-height: 4.5rem;
+    font-size: $grandezza-media + 20px;
+}
+
+#main fieldset,input,textarea {
+    font-size: 30px;
+
+}
+
+}

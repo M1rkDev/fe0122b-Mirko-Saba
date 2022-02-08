@@ -1,0 +1,66 @@
+$font-principale: 'Roboto Condensed', sans-serif;
+$grandezza-media: 25px;
+$colore-p: rgb(0, 0, 255);
+$centramento: center;
+
+ @import 'menu';
+ @import 'mixin';
+ @import 'mediaqueries';
+
+
+body {
+   background-color: rgba(255, 68, 0, 0.603);
+    padding: 20px;
+    }
+
+#main {
+    display: flex;
+}
+
+article#content { width: 70%;
+
+}
+
+
+
+h1 {
+    font-family: $font-principale;
+    font-size: $grandezza-media + 20px;
+    color: black;
+    text-align: $centramento;
+    
+}
+
+h2 
+    {@extend h1 ; 
+        font-size: $grandezza-media +5px;
+       
+
+}
+
+p {
+    font-family: $font-principale;
+    font-size: $grandezza-media - 10px;
+    color: $colore-p;
+    text-align: $centramento;
+    line-height: 25px;
+}
+
+blockquote {
+    background-color: red;
+    color: white;
+
+    p {
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+    }
+}
+
+fieldset {
+    background-color: lightblue;
+}
+
+
+#sidebar ul
+    { @include miomixin }

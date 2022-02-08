@@ -1,0 +1,84 @@
+#main-menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 35px; }
+  #main-menu ul a {
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20%;
+    margin-left: 2px;
+    margin-right: 2px; }
+
+@media screen and (min-width: 768px) {
+  #main-menu ul a {
+    padding: 22px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20%;
+    margin-left: 15px;
+    margin-right: 15px; }
+  #main p {
+    font-size: 25px;
+    line-height: 35px; }
+  #main h1, #main h2 {
+    font-size: 65px; }
+  #main h2 {
+    font-size: 40px; }
+  #main #sidebar ul {
+    line-height: 4.5rem;
+    font-size: 45px; }
+  #main fieldset, input, textarea {
+    font-size: 30px; } }
+
+body {
+  background-color: rgba(255, 68, 0, 0.603);
+  padding: 20px; }
+
+#main {
+  display: flex; }
+
+article#content {
+  width: 70%; }
+
+h1, h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 45px;
+  color: black;
+  text-align: center; }
+
+h2 {
+  font-size: 30px; }
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+  line-height: 25px; }
+
+blockquote {
+  background-color: red;
+  color: white; }
+  blockquote p {
+    color: white;
+    font-size: 30px;
+    padding: 20px; }
+
+fieldset {
+  background-color: lightblue; }
+
+#sidebar ul {
+  width: 100%;
+  padding: 20px;
+  border: 0;
+  list-style-type: none;
+  margin: 0;
+  line-height: 2.5rem;
+  color: red;
+  font-size: 25px; }

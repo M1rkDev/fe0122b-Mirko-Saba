@@ -1,0 +1,15 @@
+#main-menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 35px;
+    a {
+        padding: 10px;
+        font-size: $grandezza-media - 10px;
+        text-decoration: none;
+        background-color: black;
+        border: 2px solid white;
+        border-radius: 20%;
+        margin-left: 2px;
+        margin-right: 2px;}
+    }
