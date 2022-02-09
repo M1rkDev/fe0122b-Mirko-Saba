@@ -1,0 +1,51 @@
+.h1 {
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+
+}
+
+.h2 {
+    text-align: center;
+    color: red;
+    margin-top: 40px;
+}
+
+.row.primogruppo {
+    background-color: blue;
+    color: white;
+    padding: 3px;
+}
+
+.row.secondogruppo {
+    background-color: yellow;
+    color: black;
+    padding: 3px;
+}
+
+.row.terzogruppo {
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+
+.row.quartogruppo
+{
+    background-color: red;
+    color: white;
+    padding: 3px;
+}
+
+.quintogruppo
+{
+    background-color: lightblue;
+    color: white;
+    padding: 3px;
+}
+
+.sestogruppo
+{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
