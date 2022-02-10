@@ -15,18 +15,21 @@
     background-color: blue;
     color: white;
     padding: 3px;
+    border: 1px solid black;
 }
 
 .row.secondogruppo {
     background-color: yellow;
     color: black;
     padding: 3px;
+    border: 1px solid black;
 }
 
 .row.terzogruppo {
     background-color: green;
     color: white;
     padding: 3px;
+    border: 1px solid black;
 }
 
 .row.quartogruppo
@@ -34,6 +37,7 @@
     background-color: red;
     color: white;
     padding: 3px;
+    border: 1px solid black;
 }
 
 .quintogruppo
@@ -41,6 +45,7 @@
     background-color: lightblue;
     color: white;
     padding: 3px;
+    border: 1px solid black;
 }
 
 .sestogruppo
@@ -48,4 +53,5 @@
     background-color: black;
     color: white;
     padding: 3px;
+    border: 1px solid black;
 }
