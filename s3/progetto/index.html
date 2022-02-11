@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compito settimanale</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex w-50"><img src="img/logo2.jpg" class="w-50 logo" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#btnCollapseNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse w-100" id="btnCollapseNav">
+                    <ul class="nav navbar-nav ms.auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Chisiamo.html">Chi siamo</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contattaci.html">Contattaci</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                    
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+            <h1>Fotografie</h1>
+        <div class="container">
+            <div class="row">
+                <div class=" col-12 col-xl-6">
+                    <div class="card">
+                        <img src="img/albero.jpg" class="card-img-top albero" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Prima Esposizione</h3>
+                            <p class="card-text">Nella prima foto vediamo una particolare espozione notturna che fa sembrare quasi di essere alla luce del giorno.</p>
+                        
+                        </div>
+                        
+                
+                    </div>
+                </div>
+
+                <div class=" col-12 col-xl-6">
+                    <div class="card">
+                        <img src="img/albero2.jpg" class="card-img-top albero" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Seconda Esposizione</h3>
+                            <p class="card-text">Nella seconda foto vediamo un'espozione al tramontare del sole, con un piacevole effetto sfumato roseo.</p>
+                        
+                        </div>
+                        
+                
+                    </div>
+                </div>
+            </div>
+
+            <section class="container-fluid">
+                <h2>Vuoi collaborare con noi?</h2>
+                    <p>Mandaci una email con delle tue fotografie e una piccola descrizione di te stesso.</p>
+                    <form action="elaborato.php">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Indirizzo email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tuoindirizzoemail@gmail.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label">Carica qui le tue immagini</label>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                      </div>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"> </textarea>
+                    <button type="submit" class="btn btn-light">Invia</button>
+                    </form>
+                  </div>
+            </section>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/fotografo.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                      <h5>Fotografia di Marco Carosello</h5>
+                      <p>Sono rimasto affascinato da questo scatto di Marco che ha rappresentato a pieno la mia passione per la fotografia.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/donna.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                      <h5>Fotografia di Marco Carosello</h5>
+                      <p>Questo scatto per me è particolarmente significativo, gli occhi sono lo specchio dell'anima, Marco è fotografo veramente versatile pronto ad ogni esigenza.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/donna2.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                      <h5>Fotografia di Marco Carosello</h5>
+                      <p>Marco è riuscito a immortalare questo stupendo momento al lago, ve lo consiglio vivamente, sono rimasta piu che soddisfatta!!</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+    </main>
+
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4 footer">
+              <!-- Facebook -->
+              <a class="btn btn-primary btn-floating m-1"  href="https://www.facebook.com" target="_blank"
+                  role="button"><i class="bi bi-facebook"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn btn-danger btn-floating m-1"  href="https://www.instagram.com/" target="_blank"
+                  role="button"><i class="bi bi-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn btn-info  btn-floating m-1"  href="https://www.linkedin.com/" target="_blank"
+                  role="button"><i class="bi bi-linkedin"></i></a>
+              <!-- Github -->
+              <a class="btn btn-dark btn-floating m-1" href="https://github.com/" target="_blank"
+                  role="button"><i class="bi bi-github"></i></a>
+          </section>
+          <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3">
+          © 2020 Copyright PhotoStudio  -  P.IVA 3040320020 -  Tel: 3933922292 -  Email: marco-marco@gmail.com
+          
+      </div>
+      <!-- Copyright -->
+  </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

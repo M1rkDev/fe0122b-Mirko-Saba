@@ -1,0 +1,7 @@
+@function color-contrast($colore){
+    @if(lightness($colore) > 50){
+    @return rgb(0, 0, 0);
+    } @else {
+        @return white;
+    }
+}

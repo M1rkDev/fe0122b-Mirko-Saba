@@ -1,0 +1,50 @@
+/*variabili*/
+.logo {
+  width: 100%;
+  border-radius: 10%; }
+
+img.albero {
+  width: 100%;
+  height: auto; }
+
+header {
+  font-size: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 10; }
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 30px; }
+
+.card {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px; }
+
+p {
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center; }
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+section {
+  background-color: black;
+  margin-bottom: 20vh;
+  margin-top: 20vh;
+  color: white; }
+
+div.text-center.p-3 {
+  background-color: #15191d;
+  letter-spacing: 1px; }
+
+section.footer {
+  background-color: #15191d; }
