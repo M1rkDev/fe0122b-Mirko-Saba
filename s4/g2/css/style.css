@@ -1,0 +1,12 @@
+form {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    line-height: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}

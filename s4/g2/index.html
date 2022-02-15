@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Esercizio giorno2</title>
+</head>
+<body>
+        <form id="form">
+            <h1>Compila il Form</h1>
+            <label>Nome</label>
+             <input type="text" id="Nome">
+            
+            <label>Cognome</label>
+            <input type="text" id="Cognome"> 
+            
+            <label>Email</label>
+            <input type="email" name="" id="Email">
+            <p>Premi il tasto "Clicca Qui" per un esempio di compilazione del form</p>
+            
+            <br>
+            
+        </form>
+        <button onclick="autocompile()">Clicca Qui</button> 
+        <button onclick="svuota()">Resetta i campi</button>
+
+    <script src="js/script.js"></script>
+    <script>
+        function autocompile() {
+            document.getElementById('Nome').value = 'mirko';
+            document.getElementById('Cognome').value = 'Saba';
+            document.getElementById('Email').value = 'mirko.saba@gmail.com';
+            
+            
+        }
+        
+
+        function svuota() {
+            document.getElementById('form').reset();
+        }
+    </script>
+</body>
+</html>
