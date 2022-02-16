@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Esercizio giorno3 settimana 4</title>
+</head>
+<body>
+    <div>
+        <h1>Scopri quanto manca alla tua pensione!!</h1>
+    
+        <form>
+            <input onkeyup="console.log(calcola())" type="number" placeholder="Digita la tua età" id="getEta">
+        </form>
+            
+        <button type="button"  onclick=" document.getElementById('risultato').innerHTML = (calcola() + ' anni alla tua pensione!')">Calcola</button>
+             <br><p>Ti mancano:</p>
+            <p id="risultato"></p>
+    </div>
+
+    <script src="JS/script.js"></script>
+
+    <script>
+        function calcola()
+        {
+            var etaPensione = 65;
+            var getEta = document.getElementById('getEta').value;
+            
+            return (etaPensione - getEta);
+            
+        }
+
+        console.log(calcola());
+
+
+        
+        
+        
+    </script>
+</body>
+</html>
