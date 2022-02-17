@@ -1,0 +1,65 @@
+* {
+    font-size: 50px;
+}
+
+main {
+    padding: 20px;
+   background-image: url(../img/sfondo1.png) ;
+   background-size: cover;
+}
+
+#tastierino > div {
+    display: inline-block;
+    font-size: 70px;
+}
+
+.tasto
+{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7%;
+    width: 60px;
+}
+
+.tasto:hover {
+    background-color: orange;
+    
+}
+
+#c {
+    background-color: rgb(255, 0, 0);
+}
+
+
+.tastoUguale {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10%;
+    width: 335px;
+    margin-top: 25px;
+}
+
+
+input#display {
+    width: 330px;
+    height: 60px;
+    border-radius: 7%;
+    margin-bottom: 20px;
+}
+
+#calcolatrice {
+    background-color: lightgray;
+    padding: 20px;
+    padding-top: 35px;
+    text-align: center;
+    width: 400px;
+    height: 630px;
+    margin: auto;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
