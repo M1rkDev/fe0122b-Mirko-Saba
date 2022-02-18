@@ -8,6 +8,13 @@ main {
    background-size: cover;
 }
 
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
 #tastierino > div {
     display: inline-block;
     font-size: 70px;
@@ -27,8 +34,8 @@ main {
     
 }
 
-#c {
-    background-color: rgb(255, 0, 0);
+i {
+    font-size: 40px;
 }
 
 

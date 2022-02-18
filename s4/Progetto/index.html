@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/20238399d2.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
 </head>
 <body>
     
 <main>
+
+    <h1>Mirko's Calculator</h1>
+
     <div id="calcolatrice">
     
         <input type="text" id="display" readonly="readonly">
@@ -19,19 +23,19 @@
             <button class="tasto" id="1" onclick="prendiDato(this)">1</button>
             <button class="tasto" id="2" onclick="prendiDato(this)">2</button>
             <button class="tasto" id="3" onclick="prendiDato(this)">3</button>
-            <button class="tasto" id="/" onclick="prendiDato(this)">/</button>
+            <button class="tasto" id="/" onclick="prendiDato(this)"><i class="fa-solid fa-divide"></i></button>
             <button class="tasto" id="4" onclick="prendiDato(this)">4</button>
             <button class="tasto" id="5" onclick="prendiDato(this)">5</button>
             <button class="tasto" id="6" onclick="prendiDato(this)">6</button>
-            <button class="tasto" id="+" onclick="prendiDato(this)">+</button>
+            <button class="tasto" id="+" onclick="prendiDato(this)"><i class="fa-solid fa-plus"></i></button>
             <button class="tasto" id="7" onclick="prendiDato(this)">7</button>
             <button class="tasto" id="8" onclick="prendiDato(this)">8</button>
             <button class="tasto" id="9" onclick="prendiDato(this)">9</button>
-            <button class="tasto" id="*" onclick="prendiDato(this)">x</button>
+            <button class="tasto" id="*" onclick="prendiDato(this)"><i class="fa-solid fa-xmark"></i></button>
             <button class="tasto" id="." onclick="prendiDato(this)">.</button>
             <button class="tasto" id="0" onclick="prendiDato(this)">0</button>
-            <button class="tasto" id="c" onclick="reset()">C</button>
-            <button class="tasto" id="-" onclick="prendiDato(this)">-</button>
+            <button class="tasto" id="c" onclick="reset()"><i class="fa-solid fa-trash-can"> </i> </button>
+            <button class="tasto" id="-" onclick="prendiDato(this)"><i class="fa-solid fa-minus"></i></button>
             <button class="tastoUguale" onclick="totale()">=</button>
             
             
