@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+div:first-of-type {
+    background-color: blue;
+    width: 30px;
+    padding: 10px;
+    color: white;
+}
+
+div:last-of-type {
+    background-color: black;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    display: none;
+}
+a {
+    color: white;
+}
