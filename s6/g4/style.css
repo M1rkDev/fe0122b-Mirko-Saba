@@ -1,0 +1,17 @@
+#box {
+    width: 1px;
+    height: 20px;
+    background-color: green;
+    margin-top: 30px;
+    border: 2px solid black;
+    position: relative;
+}
+
+div#bar {
+    width: 500px;
+    background-color: red;
+    
+}
+#testo {
+    font-size: 40px;
+}
