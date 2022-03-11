@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(127, 157, 255);
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+button {
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    background-color: green;
+    font-weight: bold;
+    
+}
+
+.modifica{
+    padding: 13.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    background-color: red;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration-line:none ;
+    color: black;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+p {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
