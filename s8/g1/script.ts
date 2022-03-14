@@ -3,6 +3,8 @@ let giocatore2: number = 35;
 
 let numeroCasuale: number = Math.floor(Math.random() * (100-1) + 1);
 
+let prova11: number = Math.abs(numeroCasuale - giocatore1)
+let prova22: number = Math.abs(numeroCasuale - giocatore2)
 
 console.log("il numero casuale generato è: " + numeroCasuale)
 
@@ -16,7 +18,7 @@ function prova(){
 
         console.log("ha vinto il giocatore 2!")
 
-    } if(numeroCasuale < giocatore1  ){
+    } if( prova11 < prova22 ){
 
         console.log("Si è avvicinato di piu giocatore 1!")
 
