@@ -8,6 +8,8 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
     console.log(campi)
 
     var utente = campi.find(u => u.id == id)
+
+    
     document.querySelector('#newNome').value = utente.name
     document.querySelector('#newCognome').value = utente.lastname
     document.querySelector('#newMail').value = utente.email

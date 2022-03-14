@@ -58,7 +58,7 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
         let elimina = riga.querySelector('.delete');
 
         elimina.addEventListener('click', function(){
-            riga.remove()
+            
 
             fetch(
                 'https://sofin.wp-admin.it/public/api/v1/user/' + elemento.id, 
@@ -69,6 +69,7 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
                     }
                 }
             )
+            .then(() => riga.remove())
         })
   })
 
